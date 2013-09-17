@@ -2,12 +2,31 @@
 
 Montréal-Python workshops (presentations, exercises... all the needed material).
 
-These IPython notebooks are compatible with Ipython 1.0.0
+These IPython notebooks are compatible with IPython 1.0.0
 
-## Organisation
+## Workshops
 
 Each workshop has its own directory, with translations marked with a filename suffix 
 of the appropriate language code.
+
+### Published workshops
+
+For convenience, here are the published workshops :
+
+* Supported Technical Setup
+ * English
+ * French : [mtlpy-workshop-supported-technical-setup-fr.ipynb](http://bit.ly/1697xMF)
+* Virtualenv
+ * English
+ * French
+* Python Basic
+ * English
+ * French : [mtlpy-workshop-python-basic-fr.ipynb](http://bit.ly/16eEckF)
+  * Exercise solution : [mtlpy-workshop-python-basic-solution-fr.ipynb](http://bit.ly/1bnRClq)
+* Django Basic
+* Kivy
+* OpenStreetMap
+* Debian Development Environment
 
 ## Publishing
 
