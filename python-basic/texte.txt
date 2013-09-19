@@ -1,0 +1,5 @@
+Python est un langage que j'aime
+et, paraît-il, son nom serait dérivé
+du groupe d'humoristes britanniques Monty Python
+et non de l'espèce de serpent ayant pour nom "python"
+
