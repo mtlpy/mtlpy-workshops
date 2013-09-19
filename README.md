@@ -23,6 +23,7 @@ For convenience, here are the published workshops :
  * English
  * French : [mtlpy-workshop-python-basic-fr.ipynb](http://bit.ly/16eEckF)
   * Exercise solution : [mtlpy-workshop-python-basic-solution-fr.ipynb](http://bit.ly/1bnRClq)
+  * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
 * Django Basic
 * Kivy
 * OpenStreetMap
