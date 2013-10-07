@@ -26,6 +26,9 @@ For convenience, here are the published workshops :
   * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
   * Example script file : [script.py](http://bit.ly/16iNg7h)
 * Django Basic
+ * English
+ * French
+  * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
 * Kivy
 * OpenStreetMap
 * Debian Development Environment
