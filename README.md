@@ -14,21 +14,21 @@ of the appropriate language code.
 For convenience, here are the published workshops :
 
 * Supported Technical Setup
- * English
- * French : [mtlpy-workshop-supported-technical-setup-fr.ipynb](http://bit.ly/1697xMF)
+    * English
+    * French : [mtlpy-workshop-supported-technical-setup-fr.ipynb](http://bit.ly/1697xMF)
 * Virtualenv
- * English
- * French
+    * English
+    * French
 * Python Basic
- * English
- * French : [mtlpy-workshop-python-basic-fr.ipynb](http://bit.ly/16eEckF)
-  * Exercise solution : [mtlpy-workshop-python-basic-solution-fr.ipynb](http://bit.ly/1bnRClq)
-  * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
-  * Example script file : [script.py](http://bit.ly/16iNg7h)
+    * English
+    * French : [mtlpy-workshop-python-basic-fr.ipynb](http://bit.ly/16eEckF)
+        * Exercise solution : [mtlpy-workshop-python-basic-solution-fr.ipynb](http://bit.ly/1bnRClq)
+        * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
+        * Example script file : [script.py](http://bit.ly/16iNg7h)
 * Django Basic
- * English
- * French
-  * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
+    * English
+    * French
+        * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
 * Kivy
 * OpenStreetMap
 * Debian Development Environment
