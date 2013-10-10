@@ -29,7 +29,7 @@ For convenience, here are the published workshops :
     * English
     * French : [mtlpy-workshop-django-basic-fr.ipynb](http://bit.ly/1c2mDcq)
         * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
-        * Final source : [ligue_rugby_mp.tar.gz](http://bit.ly/1bgkHw6)
+        * Final source : [ligue_rugby_mp.tar.gz](http://bit.ly/1g3mfj4)
         * Image web development : [web-development.jpg](http://bit.ly/1cAIcDP)
 * Kivy
 * OpenStreetMap
