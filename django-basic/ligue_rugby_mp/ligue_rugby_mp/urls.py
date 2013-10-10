@@ -1,20 +1,26 @@
-from django.conf.urls import patterns, include, url
+# -*- encoding: utf-8 -*-
 
-# Uncomment the next two lines to enable the admin:
+from django.conf.urls import patterns, include, url
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Examples:
+    # lrmp
     url(r'^$', 'ligue_rugby_mp.views.home', name='home'),
-
-    url(r'^', include('ligue.urls')),
-
-    # url(r'^ligue_rugby_mp/', include('ligue_rugby_mp.foo.urls')),
-
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-
-    # Uncomment the next line to enable the admin:
+    url(r'^login/$', 'django.contrib.auth.views.login', 
+        dict(template_name='connexion.html',), 
+        'connexion'
+    ),
+    url(r'^logout/$', 'django.contrib.auth.views.logout', 
+        dict(template_name='deconnexion.html',), 
+        'deconnexion'
+    ),
     url(r'^admin/', include(admin.site.urls)),
+
+    # équipes
+    url(r'^', include('ligue.urls')),
 )
+
+urlpatterns += staticfiles_urlpatterns()

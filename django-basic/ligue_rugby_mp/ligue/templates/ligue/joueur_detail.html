@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>{{ joueur }}</h1>
+
+<p>
+Date naissance : {{ joueur.date_naissance|date:'Y-m-d' }}<br />
+Équipe : <a href="{% url "equipe" joueur.equipe.id %}">{{ joueur.equipe }}</a>
+</p>
+
+{% endblock %}

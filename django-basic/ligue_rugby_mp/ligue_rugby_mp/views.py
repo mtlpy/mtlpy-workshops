@@ -1,12 +1,9 @@
+# -*- encoding: utf-8 -*-
+
 from django.shortcuts import render
 
-from ligue.models import Equipe
-
 def home(request):
-    equipes = Equipe.objects.all()
-
-    c = { 
-        "user":"davin", 
-        "equipes":equipes,
+    """Page d'accueil du site"""
+    c = {
     }
-    return render(request, 'home.html', c)
+    return render(request, "home.html", c)
