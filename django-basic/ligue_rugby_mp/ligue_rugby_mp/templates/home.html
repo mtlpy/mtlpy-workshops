@@ -1,7 +1,6 @@
-<html>
-<head>
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block main %}
 <h1>Salut {{ user }}!</h1>
 
 <ul>
@@ -9,5 +8,4 @@
   <li>{{ e }}</li>
 {% endfor %}
 </ul>
-</body>
-</html>
+{% endblock %}
