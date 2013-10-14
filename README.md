@@ -14,7 +14,7 @@ of the appropriate language code.
 For convenience, here are the published workshops :
 
 * Supported Technical Setup
-    * English
+    * English [mtlpy-workshop-supported-technical-setup.ipynb](http://bit.ly/18eiMIO)
     * French : [mtlpy-workshop-supported-technical-setup-fr.ipynb](http://bit.ly/1697xMF)
 * Virtualenv
     * English
