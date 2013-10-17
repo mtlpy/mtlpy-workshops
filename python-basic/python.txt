@@ -1,0 +1,6 @@
+Python is a language that I love
+and, it seems, its name comes from
+the Monty Python troupe of British comedians
+and not from the snake called a "python"
+
+# END FILE
