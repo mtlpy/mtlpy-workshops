@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 def sup(name):
-    return u"Sup %s!" % (nom)
+    return u"What's up, %s!" % (name)
 
 if __name__ == '__main__':
     print u"--------------------------------------------------"
