@@ -28,7 +28,7 @@ For convenience, here are the published workshops :
 * Django Basic
     * English : [mtlpy-workshop-django-basic.ipynb](http://bit.ly/1drKnqH)
         * Technical setup : [setup.ipynb](http://bit.ly/1gLVHCd)
-        * Final source : [mp_rugby_league.tar.gz](http://bit.ly/1g3mfj4)
+        * Final source : [mp_rugby_league.tar.gz](http://bit.ly/1br2WbE)
         * Image web development : [web-development.jpg](http://bit.ly/1cAIcDP)
     * French : [mtlpy-workshop-django-basic-fr.ipynb](http://bit.ly/1c2mDcq)
         * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
