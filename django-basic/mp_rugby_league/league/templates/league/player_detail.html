@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>{{ player }}</h1>
+
+<p>
+Date of birth : {{ player.date_of_birth|date:'Y-m-d' }}<br />
+Team : <a href="{% url "team" player.team.id %}">{{ player.team }}</a>
+</p>
+
+{% endblock %}

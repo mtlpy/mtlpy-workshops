@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>Teams ({{ teams.count }})</h1>
+
+<ul>
+{% for t in teams %}
+    <li><a href="{% url "team" t.id %}">{{ t }}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}

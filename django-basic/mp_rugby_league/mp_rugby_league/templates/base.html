@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg" xml:lang="fr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{% block title %}MPRL : Montréal-Python Rugby League{% endblock %}</title>
+    <link rel="icon" type="image/png" href="{{ STATIC_URL }}images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/style.css" media="all"/>
+    {% block css %}{% endblock %}
+    {% block js %}{% endblock %}
+  </head>
+
+  <body>
+    <div id="header">
+
+      <div id="banner">
+        <img src="{{ STATIC_URL }}images/logo.png" alt="logo Montréal-Python"/>
+        <h1>Rugby League</h1>
+        <h2>{% block sous_titre %}{% endblock %}</h2>
+        {% block chapeau %}{% endblock %}
+      </div>
+
+      <ul id="user-actions">
+          {% if user.is_authenticated %}
+          <li class="username">{{ user }}</li>
+            <li><a href="{% url "deconnexion" %}">Disconnexion</a></li>
+            {% if user.get_all_permissions or user.is_superuser %}
+                <li><a href="{% url "admin:index" %}">Administration</a></li>
+            {% endif %}
+          {% else %}
+            <li><a href="{% url "connexion" %}">Connexion</a></li>
+          {% endif %}
+      </ul>
+
+    </div>
+
+    <div id="topmenu">
+        <ul class="menu">
+          <li><a href="{% url "home" %}">Home</a>
+          <li><a href="{% url "teams" %}">Teams</a></li>
+          <li><a href="{% url "players" %}">Players</a></li>
+        </ul>
+    </div>
+
+    {% block droite %}
+    {% endblock %}
+
+    <div id="main">
+      {% block main %}
+      {% endblock %}
+    </div>
+
+    <div id="footer">
+      {% block footer %}
+      {% endblock %}
+    </div>
+
+</body>
+</html>
