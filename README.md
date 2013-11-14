@@ -26,7 +26,8 @@ For convenience, here are the published workshops :
         * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
         * Example script file : [script.py](http://bit.ly/16iNg7h)
 * Django Basic
-    * English
+    * English :
+        * Technical setup : [setup.ipynb](http://bit.ly/1gLVHCd)
     * French : [mtlpy-workshop-django-basic-fr.ipynb](http://bit.ly/1c2mDcq)
         * Technical setup : [setup-fr.ipynb](http://bit.ly/1bCp099)
         * Final source : [ligue_rugby_mp.tar.gz](http://bit.ly/1g3mfj4)
