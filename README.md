@@ -25,6 +25,9 @@ For convenience, here are the published workshops :
         * Exercise solution : [mtlpy-workshop-python-basic-solution-fr.ipynb](http://bit.ly/1bnRClq)
         * Example txt file : [texte.txt](http://bit.ly/1btMYSW)
         * Example script file : [script.py](http://bit.ly/16iNg7h)
+    * Psychology
+        * English : [mtlpy-workshop-python-basic-psy.ipynb](http://bit.ly/O8gowQ)
+        
 * Django Basic
     * English : [mtlpy-workshop-django-basic.ipynb](http://bit.ly/1drKnqH)
         * Technical setup : [setup.ipynb](http://bit.ly/1gLVHCd)
