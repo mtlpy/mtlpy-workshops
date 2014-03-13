@@ -1,0 +1,2 @@
+# IPython notebooks (to edit .ipynb)
+ipython[all]>=1.0.0
